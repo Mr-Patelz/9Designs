@@ -1,0 +1,114 @@
+.process-component{
+  background: #fff;
+}
+.container{
+  text-align: center;
+  font-size: 17px;
+  padding: 3em;
+  color: #0D5FDB;
+  
+}
+.title{
+  padding-top: 0%;
+  color:#242422;
+  font-size: 40px;
+}
+:root {
+  --blue: rgb(25,34,62);
+  --orange: hsl(31, 77%, 52%);
+  --drk-cyan: hsl(184, 100%, 22%);
+  --vdrk-cyan: hsl(179, 100%, 13%);
+  --light-gray: hsl(0, 0%, 95%);
+  --trans-white: hsla(0, 0%, 100%, 0.75);
+  --ff-bsd: 'Big Shoulders Display', cursive;
+  --ff-lexend: 'Lexend Deca', sans-serif;
+     font-size: 15px;
+    
+}
+
+.card {
+  display: grid;
+  grid-template-rows: 2fr;
+  padding: 3em;
+  padding-top: 0%;
+  padding-bottom: 5%;
+  grid-gap: 15px;
+}
+
+.card-item {
+  align-items: stretch;
+  padding: 4em;
+ 
+}
+
+.card-item.sedans {
+  background-color: var(--orange);
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+
+.card-item.suvs {
+  background-color: var(--drk-cyan);
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.card-item.luxury {
+  background-color: var(--vdrk-cyan);
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.card-item.exec {
+  background-color: var(--blue);
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+
+.card--button.sedans:active, .card--button.sedans:focus, .card--button.sedans:hover {
+  background-color: var(--orange);
+  color: var(--white);
+} 
+
+.card--button.suvs:active, .card--button.suvs:focus, .card--button.suvs:hover {
+  background-color: var(--drk-cyan);
+  color: var(--white);
+}
+
+.card--button.luxury:active, .card--button.luxury:focus, .card--button.luxury:hover {
+  background-color: var(--vdrk-cyan);
+  color: var(--white);
+}
+
+.card--title {
+  color: var(--light-gray);
+  font-family: var(--ff-bsd);
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+.card--text {
+  color: var(--trans-white);
+  font-family: var(--ff-lexend);
+  line-height: 1.7em;
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .card {
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-flow: row;
+    max-width: 1100px;
+    margin: 0 auto;
+    
+  }
+  
+  .card-item.sedans {
+    border-radius: 0.5em 0 0 0.5em;
+  }
+
+  .card-item.luxury {
+    border-radius: 0 0.5em 0.5em 0;
+  }
+
+}
+
+  

@@ -1,0 +1,194 @@
+.color{
+    background: #fff;
+    text-align: center;
+    padding: 1em;
+    color: #fff;
+}
+.bg-gray {
+    background-color: #242424;
+    border-bottom: 10px #fff solid; 
+}
+
+.header{
+    text-align: center;
+    color: #242424;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #fff; 
+}
+
+
+.single-highlight-box {
+    position: relative;
+    display: grid;
+    flex-direction: column;
+    padding-top: 10px;
+    overflow: hidden;
+    border-radius: 0.5em;
+}
+
+.bg-one {
+    background: url('/images/img-5.jpg') no-repeat;
+    
+}
+
+.bg-two {
+    background: url('/images/img-1.jpg') no-repeat;
+}
+
+.bg-three {
+    background: url('/images/img-2.jpg') no-repeat;
+}
+
+.inner-content {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.single-highlight-box:hover .inner-content,
+.single-highlight-box:focus .inner-content {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.05);
+    
+}
+
+.single-highlight-box:hover .inner-content:before,
+.single-highlight-box:focus .inner-content:before {
+    display: block;
+    
+}
+
+.single-highlight-box:hover a,
+.single-highlight-box:focus a {
+    display: block;
+}
+
+.inner-content:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 73, 94, 0.75);
+    
+}
+
+.single-highlight-box .inner-content .text {
+    position: relative;
+    display: block;
+    padding: 26px 30px 32px;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.single-highlight-box .inner-content h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 0px 0 18px;
+    color: #fff;
+}
+
+.single-highlight-box .inner-content p {
+    
+    margin: 0;
+    color: #fff;
+}
+
+.single-highlight-box .inner-content a {
+    position: relative;
+    display: block;
+    background: transparent;
+    color: #fff;
+}
+
+.single-highlight-box:hover .inner-content a {
+    color: #00a2f5;
+}
+
+.single-highlight-box .inner-content-1 {
+    position: relative;
+    display: block;
+    background: url('/images/img-5.jpg') no-repeat;
+    padding-top: 15px;
+}
+
+.single-highlight-box .inner-content-1 .text {
+    position: relative;
+    display: block;
+    padding: 26px 30px 32px;
+}
+
+.single-highlight-box .inner-content-1 h3 {
+    font-weight: 600;
+    margin: 0px 0 18px;
+    color: #fff;
+}
+
+.single-highlight-box .inner-content-1 p {
+    margin: 0;
+    color: #fff;
+}
+
+.single-highlight-box .inner-content-1 a {
+    position: relative;
+    display: block;
+    background: transparent;
+    color: #fff;
+}
+
+.single-highlight-box:hover .inner-content-1 a {
+    color: #00a2f5;
+}
+
+.single-highlight-box .inner-content-2 {
+    position: relative;
+    display: block;
+    background: url('/images/img-6.jpg') no-repeat;
+    padding-top: 15px;
+}
+
+.single-highlight-box .inner-content-2 .text {
+    position: relative;
+    display: block;
+    padding: 26px 30px 32px;
+}
+
+.single-highlight-box .inner-content-2 h3 {
+    font-weight: 600;
+    margin: 0px 0 18px;
+    color: #fff;
+}
+
+.single-highlight-box .inner-content-2 p {
+    margin: 0;
+    color: #fff;
+}
+
+.single-highlight-box .inner-content-2 a {
+    position: relative;
+    display: block;
+    background: transparent;
+    color: #fff;
+}
+
+.single-highlight-box:hover .inner-content-2 a {
+    color: #00a2f5;
+}
