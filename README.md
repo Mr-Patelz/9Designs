@@ -1,7 +1,7 @@
 
 # About
 
-     Improve your coding skills by building realistic projects.
+     Improving my coding skills by building realistic projects.
 
 
 # Overview
