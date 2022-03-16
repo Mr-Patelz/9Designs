@@ -12,7 +12,7 @@
    - See hover states for all interactive elements on the page
    - Switch between viewing different components
    - Card components
-   - Responsive footer
+   - Responsive design
    
 # Screenshot
 
